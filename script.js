@@ -24,6 +24,3 @@ if (confirm("Click OK to include uppercase letters."));
 if (confirm("Click OK to include numerical values."));
 
 if (confirm("Click OK to include special characters."));
-
-
-
