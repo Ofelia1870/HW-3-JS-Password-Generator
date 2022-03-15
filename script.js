@@ -50,12 +50,14 @@ if (confirm("Click OK to include numerical values.") == true) {
 if (confirm("Click OK to include special characters.") == true) {
   passwordArray = passwordArray.concat(specialCharacters);
 };
+
 console.log(passwordArray);
+
 var password = "";
 
 for (var i = 0; i <= characterAmount; i++) {
   password += passwordArray[Math.floor(Math.random() * passwordArray.length)];
-  // console.log(lowercaseLetters[Math.floor(Math.random() * 26)]);
+  // console.log(passwordArray[Math.floor(Math.random() * passwordArray.length)]);
 }
 
 if (password.length < 8 || password.length > 128 ){
